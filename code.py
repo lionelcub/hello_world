@@ -1,6 +1,5 @@
 import random
 
 if __name__ == '__main__':
-    print(random.randint(1,6))
-    print('It runs the code!')
-    print('Test run accomplished')
+    print('The dice is {}'.format(random.randint(1,6)))
+    print('It plays the dice!')
